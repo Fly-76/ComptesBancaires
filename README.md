@@ -4,6 +4,7 @@
 Créer une application qui permet à l’utilisateur de créer et gérer ses comptes bancaires.
 
 ## Compétences mises en oeuvre : 
+- HTML5 / CSS3 / Boostrap4 / Boilerplate / JavaScript 
 - Installer un serveur local de développement composé de PHP7, Apache2 et MySQL
 - Structurer ses données à l’aide du format JSON
 - Créer une arborescence HTML sur la base de données au format JSON
