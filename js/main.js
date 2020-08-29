@@ -10,8 +10,8 @@ function displayRules(rules) {
     let splash = document.getElementById("rules");
     console.log(splash);
     console.log(html);
-
-//    splash.innerHTML = html;
+alert("stop")
+    splash.innerHTML = html;
 }
 
 // load rules from rules.json file using HTTP request
