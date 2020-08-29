@@ -1,16 +1,11 @@
-console.log("loaded");
-
-// 
+// Display rules
 function displayRules(rules) {
     let html = "";
     for (let rule of rules) {
         for (let field in rule)
             html += `<p>${rule[field]}</p>`;
     }
-    let splash = document.getElementById("rules");
-    console.log(splash);
-    console.log(html);
-alert("stop")
+    let splash = document.getElementById("rulesContent");
     splash.innerHTML = html;
 }
 
@@ -32,9 +27,9 @@ function loadContent() {
     httpRequest.open('GET', 'rules.json', true);
     httpRequest.send();
 }
+loadContent();
 
 // Show splash screen
 $(document).ready(function(){
-    loadContent();
     $("#rules").modal();
 });

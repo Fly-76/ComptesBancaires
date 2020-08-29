@@ -1,5 +1,3 @@
-alert("statistiques loaded");
-
 // Display statistiques
 function displayStats(stats) {
     let html = "";
@@ -12,11 +10,9 @@ function displayStats(stats) {
 
     let table = document.getElementsByTagName("tbody")[0];
     table.innerHTML = html;
-
-    console.log(table.innerHTML);
 }
 
-// Load statistique from 
+// Load statistique from statistique.json
 function loadContent() {
     httpRequest = new XMLHttpRequest();
 
