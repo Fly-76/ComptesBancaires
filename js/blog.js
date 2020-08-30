@@ -15,7 +15,7 @@ function displayArticles(articles) {
     for (let content of articles) {
 
         let div = document.createElement("div");
-        div.classList.add("col-12", "col-sm-6", "col-lg-3");
+        div.classList.add("col-12", "col-sm-6", "col-lg-3", "my-2");
 
         section.appendChild(div);
         let article = document.createElement("article");
